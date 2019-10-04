@@ -4,6 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+:root{
+  --cor-primaria: #1a9b2f;
+  --primaria-transparente: #1a9b2f80;
+  --cor-secundaria: #117223;
+}
+
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -12,8 +18,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: var(--cor-primaria);
+  border: 1px solid var(--cor-primaria);
 }
 
 #mainNav .navbar-toggler:focus {
@@ -74,15 +80,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: var(--cor-primaria);
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: var(--cor-secundaria);
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: var(--cor-primaria);
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid var(--cor-primaria);
   }
 }
 
@@ -145,7 +151,7 @@
 }
 
 .masthead .btn:hover{
-  background: #64a19d80;
+  background: var(--primaria-transparente);
 }
 
 .btn {
@@ -160,20 +166,20 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: var(--cor-primaria);
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: var(--cor-secundaria);
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: var(--cor-secundaria);
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color:  var(--cor-secundaria) !important;
 }
 
 .about-section {
@@ -197,7 +203,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid var(--cor-primaria);
   }
 }
 
@@ -211,7 +217,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: var(--cor-primaria);
     border-width: .25rem;
     width: 30%;
   }
@@ -245,7 +251,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid var(--cor-primaria);
 }
 
 .contact-section .card h4 {
@@ -256,7 +262,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: var(--cor-primaria);
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -289,7 +295,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: var(--cor-primaria);
 }
 
 a:focus, a:hover {
@@ -302,11 +308,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: var(--cor-primaria) !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: var(--cor-primaria) !important;
 }
 
 footer {
