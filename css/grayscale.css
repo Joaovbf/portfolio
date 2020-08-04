@@ -5,9 +5,9 @@
  */
 
 :root{
-  --cor-primaria: #1a9b2f;
-  --primaria-transparente: #1a9b2f80;
-  --cor-secundaria: #117223;
+  --cor-primaria: #40924d;
+  --primaria-transparente: #277c3680;
+  --cor-secundaria: #1a5c26;
 }
 
 #mainNav {
@@ -208,7 +208,7 @@
 }
 
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 2.3rem;
   font-size: 90%;
 }
 
